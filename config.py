@@ -19,8 +19,8 @@ class Config(object):
     REDIS_CONF = RedisConfig(host='127.0.0.1', port=6379, db=0)
     PASSWORD_PREFIX = "08b3db21-d120-11e4-9ttd-10ddb199c373"
     ENCRYPT_PWD_URL = None
-    SERVER_IP = '0.0.0.0'
-    SERVER_PORT = 5000
+    SERVER_IP = 'mzhlw-zhuaiqianbao.daoapp.io'
+    SERVER_PORT = 80
 
 
 class ProductionConfig(Config):
